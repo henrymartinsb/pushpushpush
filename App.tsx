@@ -35,7 +35,7 @@ const App = () => {
     }
 
     clearTimeout(timer)
-    timer = setTimeout(applyGravity, 10)
+    timer = setTimeout(applyGravity, 30)
   }, [gravity, upForce, speed, posY])
 
   const handleForceButton = () => {
